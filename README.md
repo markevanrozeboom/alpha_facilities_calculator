@@ -141,9 +141,14 @@ npx http-server
 ### File Structure
 ```
 alpha_facilities_calculator/
+├── .github/
+│   └── workflows/
+│       └── pages.yml           # GitHub Actions deployment workflow
 ├── index.html                  # Main application (standalone, browser-ready)
-├── facility-calculator.jsx     # React component (for potential build setups)
-└── README.md                   # This file
+├── facility-calculator.jsx     # React component source (reference/alternative format)
+├── README.md                   # This file
+├── DEPLOYMENT.md               # GitHub Pages setup instructions
+└── .nojekyll                   # Disables Jekyll processing for GitHub Pages
 ```
 
 ## 🛠️ Technology Stack
