@@ -32,9 +32,9 @@ This calculator helps Alpha School administrators and planners:
 3. **Annual CapEx Depreciation**: Capital expenditure for purchases and improvements
 
 ### Interactive Controls
-- **Student Count Slider**: Adjust from 10 to 300+ students with real-time updates
+- **Student Count Slider**: Adjust from 10 to 300 students with real-time updates
 - **Allocation Slider**: Balance between Lease+Other vs. CapEx spending
-- **Numeric Input**: Precise student count entry (up to 500 students)
+- **Numeric Input**: Precise student count entry (10-500 students, extends beyond slider range)
 
 ### Comprehensive Visualizations
 - Side-by-side comparison of all three tuition scenarios
@@ -47,8 +47,8 @@ This calculator helps Alpha School administrators and planners:
 1. **Open the Calculator**: Visit the [live demo](https://markevanrozeboom.github.io/alpha_facilities_calculator/) or open `index.html` in any modern web browser
 
 2. **Set Student Count**: 
-   - Use the slider to adjust the number of students (10-300)
-   - Or type a specific number (up to 500) in the input box
+   - Use the slider to adjust the number of students (10-300 range)
+   - Or type a specific number in the input box (10-500 supported)
    - Watch as margins, staffing, and lease terms auto-adjust
 
 3. **Adjust Facility Allocation**:
@@ -167,7 +167,7 @@ This calculator uses a **zero-build** approach with CDN-loaded libraries, making
 To modify the calculator constants or business logic:
 
 1. Open `index.html` in any text editor
-2. Find the constants section around line 69-75
+2. Find the constants section (search for "// Constants" in the JavaScript code)
 3. Adjust values as needed:
    ```javascript
    const LEAD_GUIDE_SALARY = 200000;
